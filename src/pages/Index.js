@@ -2,7 +2,7 @@ import React from 'react';
 import {
     Link
 }from 'react-router-dom';
-import logo from '../images/SaskatoonSalsa_Logo_Horizontal_NoTagline_White.png';
+import logo from './images/dancelogo.png';
 function Index(){
     return(
         <div>
@@ -25,7 +25,7 @@ function Index(){
             <Link to="/About">About </Link>
             </ul>
             <ul>
-            <Link to="/About">Sign In </Link>
+            <Link to="/sign in">Sign In </Link>
             </ul>
         </div>
     )
