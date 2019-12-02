@@ -1,15 +1,20 @@
-import React from './react';
+import React from 'react';
 import h1 from './images/h1.jpg';
-import { tsPropertySignature } from '@babel/types';
+import h2 from './images/h2.jpg';
+import SimpleImageSlider from "react-simple-image-slider";
 
 function ImageSlider(){
-    return
-        const[images,setImages]=React.useState('');
-
-        function setImages=['h1','h2','h3','h4','h5'];
-        <div>
-            <img src={h1}></img>
-        </div>
-    )
+    const Images=[
+        { url: "images/h1.jpg" },
+        { url: "images/h2.jpg" },
+       ];
+    return (
+        <SimpleImageSlider
+        width={896}
+        height={504}
+        images={Images}
+    />
+       );
+    
 }
 export default ImageSlider;

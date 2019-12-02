@@ -10,7 +10,9 @@ import About from './pages/About.js';
 import UpcomingEvent from './pages/UpcomingEvent.js';
 import Classes from './pages/Classes.js';
 import SignIn from './pages/SignIn.js';
-import h1 from './images/h1.jpg'
+import h1 from './images/h1.jpg';
+import footer from './pages/footer.js';
+import ImageSlider from './ImageSlider.js'
 function App() {
   return (
     <BrowserRouter>
@@ -36,9 +38,12 @@ function App() {
       </div>
       <div className="body">
         <img src={h1} alt="not displyed"></img>
+        <ImageSlider/>
       </div>
-    
+    <footer/>
+   
     </BrowserRouter>
-  );
+
+  )
 }
 export default App;
