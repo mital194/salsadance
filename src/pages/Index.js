@@ -2,7 +2,7 @@ import React from 'react';
 import {
     Link
 }from 'react-router-dom';
-import logo from './images/dancelogo.png';
+import logo from '../dancelogo.png';
 function Index(){
     return(
         <div>

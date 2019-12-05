@@ -3,7 +3,8 @@ function Classes(){
     return(
         <div>
             <h1> This is Class page</h1>
-            <p>
+            <p className="classes-format">
+                
                 FALL-WINTER 2019-20 Recreational Classes 
                 * Registration is online below and continues until sold out. See below for registration options
 

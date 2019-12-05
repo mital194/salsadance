@@ -1,6 +1,6 @@
 import React from 'react';
-import h1 from './images/h1.jpg';
-import h2 from './images/h2.jpg';
+//import h1 from '/images/h1.jpg';
+//import h2 from './public/images/h2.jpg';
 import SimpleImageSlider from "react-simple-image-slider";
 
 function ImageSlider(){
