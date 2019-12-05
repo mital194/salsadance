@@ -4,11 +4,10 @@ import {
     BrowserRouter,
     Route
 }from 'react-router-dom';
-import HeaderNav from './pages/headerNav';
+//import HeaderNav from './pages/headerNav';
 function Classes(){
     return(
         <div>
-            <HeaderNav/>
             <p className="classes-format">
                 
                 FALL-WINTER 2019-20 Recreational Classes 
