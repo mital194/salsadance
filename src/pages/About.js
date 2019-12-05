@@ -3,7 +3,7 @@ function About(){
     return(
         <div> 
             <p>
-            
+           
             The Story of Saskatoon Salsa
             If you love to dance, you should dance! That’s what Saskatoon Salsa believes, and with classes tailored to every age and experience level, it’s a philosophy that has made them Saskatoon’s premiere Salsa dance school for ten years running.
 

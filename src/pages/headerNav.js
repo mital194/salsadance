@@ -2,8 +2,13 @@ import React from 'react';
 import {
     BrowserRouter,
     Route,
-    Link
   } from 'react-router-dom';
+  import Index from './pages/Index.js';
+import Contact from './pages/Contact.js';
+import About from './pages/about.js'
+import UpcomingEvent from './pages/UpcomingEvent.js';
+import Classes from './pages/Classes.js';
+import SignIn from './pages/SignIn.js';
 function headerNav(){
     return(
         <div>
