@@ -1,11 +1,10 @@
 import React from 'react';
 function footer(){
     return(
-        <div className="footer">
-        <p>
-          BACK TO TOP
-        SASKATOON SALSA DANCE COMPANY. EAST SASKATOON, SK,
-         S7J1C9
+        <div>
+         <p className="footer"> BACK TO TOP<br/>
+        SASKATOON SALSA DANCE. EAST SASKATOON, SK,
+         <br/>S7J1C9<br/>
          SASKATOON
          </p>
          </div>

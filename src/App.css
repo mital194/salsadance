@@ -1,11 +1,13 @@
 
-
-.header {
-  justify-items: center;
-  margin: 0px;
+.header div{
+display:flex;
+justify-items: center;
+ justify-content:space-between;
+ margin: 20px;
+ font-size: 20px;
 }
-.menu img{
-  height: 50px;
+.header img{
+  height: 80px;
 }
 .body img{
 height: 50%;
@@ -14,4 +16,15 @@ width: 100%;
 .classes-format{
   justify-content: center;
 
+}
+
+.footer {
+  justify-content: center;
+  justify-items: center;
+  margin:20px;
+  font-size: 18px;
+  font-family: "Droid Serif";
+  font-size: 18px;
+ line-height: 1.6em;
+  letter-spacing: 0px;
 }

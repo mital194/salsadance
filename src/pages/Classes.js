@@ -1,8 +1,11 @@
 import React from 'react';
+import {
+    Link 
+}from 'react-router-dom';
 function Classes(){
     return(
         <div>
-            <h1> This is Class page</h1>
+            
             <p className="classes-format">
                 
                 FALL-WINTER 2019-20 Recreational Classes 
