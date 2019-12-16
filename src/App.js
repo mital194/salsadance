@@ -13,6 +13,7 @@ import About from './pages/About';
 import Classes from './pages/Classes';
 import UpcomingEvent from './UpcomingEvent'
 import Gallery from './pages/Gallery'
+import Instructors from './pages/Instructors'
 //import Login from './pages/Login';
 //import Home from './pages/home';
 
@@ -32,6 +33,7 @@ function App(){
         <Route path="/About" component={About} exact={true}/> 
         <Route path="/UpcomingEvent" component={UpcomingEvent} exact={true}/> 
         <Route path="/Gallery" component={Gallery} exact={true}/>
+        <Route path="/Instructors" component={Instructors} exact={true}/>
         </div>
         <div>
         <ImageSlider/>

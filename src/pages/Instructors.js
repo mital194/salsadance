@@ -2,14 +2,15 @@ import React from 'react';
 import {
     Link 
 }from 'react-router-dom';
-import kim1 from './kim1.jpg'
+import kim1 from '../GalleryImages/kim1.png'
+import Ervin from '../GalleryImages/Ervin.png'
 function Instructors(){
     return(
      <div>
         <h1>Our Instructors</h1>
 
         <div><h2>Kimberly Parent </h2>
-            <img src={kim1} alt={}/>
+            <img src={kim1} alt={kim1}/>
             <p>
             Kimberly Parent has always loved to dance, but when she discovered Cuban music and dance, there was an instant connection—something inside her changed. After spending a year overseas learning and teaching, she returned to Saskatoon only to find a deficit in the genre with which she’d fallen in love. In fact, there were no Salsa lessons being offered in her hometown beyond ballroom style. And so it was that in 2003 Kimberly Parent began teaching Salsa simply to have others to dance with. In no time, her performance group La Carisma was born.
 
@@ -22,7 +23,7 @@ function Instructors(){
 
         <div>
             <h2>Ervin Kormos</h2>
-            <img src={Ervin} alt={}/>
+            <img src={Ervin} alt={Ervin}/>
             <p>
 
 
