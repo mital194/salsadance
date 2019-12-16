@@ -9,16 +9,15 @@ function ImageSlider(){
         { url: "images/h4.jpg" },
         { url: "images/h5.jpg" },
        ];
+    
     return (
         <div className="slider">
         <SimpleImageSlider
         width={1500}
         height={704}
         images={Images}
-        
-    />
+         />
     </div>
-       );
-    
+    )
 }
 export default ImageSlider;

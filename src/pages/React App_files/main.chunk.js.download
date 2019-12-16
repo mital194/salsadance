@@ -1,0 +1,1247 @@
+(this["webpackJsonpsalsadancehub"] = this["webpackJsonpsalsadancehub"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "\n.header{\ndisplay:flex;\njustify-items: center;\n justify-content:space-between;\n margin: 20px;\n font-size: 20px;\n}\n.header img{\n  height: 80px;\n}\n.body img{\nheight: 50%;\nwidth: 100%;\n}\n.classes-format{\n  justify-content: center;\n\n}\n\n.footer {\n  justify-content: center;\n  justify-items: center;\n  margin:20px;\n  font-size: 18px;\n  font-family: \"Droid Serif\";\n  font-size: 18px;\n line-height: 1.6em;\n  letter-spacing: 0px;\n}\n\n\n.upcomingclass img{\n  display: inline-block;\n  justify-content: center;\n  justify-items: center;\n  margin:20px;\n  padding: 10px;;\n\n}\n.calender img{\n  height: 200px;\n  width: 400px;\n  display: flex;\n\n}\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\n    monospace;\n}\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./src/2019-20+Calendar+of+Events.png":
+/*!********************************************!*\
+  !*** ./src/2019-20+Calendar+of+Events.png ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/2019-20+Calendar+of+Events.c53cd623.png";
+
+/***/ }),
+
+/***/ "./src/About1.png":
+/*!************************!*\
+  !*** ./src/About1.png ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/About1.2613d4f8.png";
+
+/***/ }),
+
+/***/ "./src/About2.png":
+/*!************************!*\
+  !*** ./src/About2.png ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/About2.3c5ce52c.png";
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var E_Mital_ComIT_project_salsadancehub_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _ImageSlider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ImageSlider */ "./src/ImageSlider.js");
+/* harmony import */ var _pages_footer_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/footer.js */ "./src/pages/footer.js");
+/* harmony import */ var _pages_navigation__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/navigation */ "./src/pages/navigation.js");
+/* harmony import */ var _pages_Contact__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/Contact */ "./src/pages/Contact.js");
+/* harmony import */ var _pages_About__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/About */ "./src/pages/About.js");
+/* harmony import */ var _pages_Classes__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/Classes */ "./src/pages/Classes.js");
+/* harmony import */ var _UpcomingEvent__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./UpcomingEvent */ "./src/UpcomingEvent.js");
+/* harmony import */ var _pages_Login__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/Login */ "./src/pages/Login.js");
+/* harmony import */ var _pages_home__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/home */ "./src/pages/home.js");
+
+var _jsxFileName = "E:\\Mital\\ComIT\\project\\salsadancehub\\src\\App.js";
+
+
+ //import Navigation from './pages/navigation.js';
+
+
+
+
+
+
+
+ //import SignIn from './pages/SignIn'
+
+
+
+
+function App() {
+  let _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(''),
+      _React$useState2 = Object(E_Mital_ComIT_project_salsadancehub_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
+      username = _React$useState2[0],
+      setUsername = _React$useState2[1];
+
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/",
+    exact: true,
+    component: _pages_navigation__WEBPACK_IMPORTED_MODULE_6__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/Classes",
+    component: _pages_Classes__WEBPACK_IMPORTED_MODULE_9__["default"],
+    exact: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/Contact",
+    component: _pages_Contact__WEBPACK_IMPORTED_MODULE_7__["default"],
+    exact: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/About",
+    component: _pages_About__WEBPACK_IMPORTED_MODULE_8__["default"],
+    exact: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/UpcomingEvent",
+    component: _UpcomingEvent__WEBPACK_IMPORTED_MODULE_10__["default"],
+    exact: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_ImageSlider__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: '/Login',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_pages_Login__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    username: username,
+    setUsername: setUsername,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: '/home',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_pages_home__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    username: username,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
+    input: "text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_pages_footer_js__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  })));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/Havana+2020+Instagram.png":
+/*!***************************************!*\
+  !*** ./src/Havana+2020+Instagram.png ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Havana+2020+Instagram.24f85590.png";
+
+/***/ }),
+
+/***/ "./src/ImageSlider.js":
+/*!****************************!*\
+  !*** ./src/ImageSlider.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_simple_image_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-simple-image-slider */ "./node_modules/react-simple-image-slider/dist/ImageSlider.js");
+/* harmony import */ var react_simple_image_slider__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_simple_image_slider__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "E:\\Mital\\ComIT\\project\\salsadancehub\\src\\ImageSlider.js";
+
+
+
+function ImageSlider() {
+  const Images = [{
+    url: "images/h1.jpg"
+  }, {
+    url: "images/h2.jpg"
+  }, {
+    url: "images/h3.jpg"
+  }, {
+    url: "images/h4.jpg"
+  }, {
+    url: "images/h5.jpg"
+  }];
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "slider",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_simple_image_slider__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    width: 1500,
+    height: 704,
+    images: Images,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ImageSlider);
+
+/***/ }),
+
+/***/ "./src/NWB_SaskatoonSalsa_Products_Class-blue.png":
+/*!********************************************************!*\
+  !*** ./src/NWB_SaskatoonSalsa_Products_Class-blue.png ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,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"
+
+/***/ }),
+
+/***/ "./src/NWB_SaskatoonSalsa_Products_Instruction-01.png":
+/*!************************************************************!*\
+  !*** ./src/NWB_SaskatoonSalsa_Products_Instruction-01.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAkMElEQVR42uzdb2hVdRzHcfffdFvpKnWjMbWNWW5oVhuIy9pYsbEHhZKklJMCIYmyDIseBGmYIWHQhuHcWuqQCIuCkihtbU1iowc2uhaCf7b2p00H3ds2d+/Vt3CEw9hw97q7+zvnft7wen4Pnt+X37nnt+sspZRSSimllFJKKVubmo/dFIdkpGI+MrEEy7ASxShBKcpQiSpLJcpQihIUYyWWYTEyMQ9zkYQ4zLpBKaUmGkgJSEMWClGGjXgdH+AQvsIpdMCDC+jFAIbgxbBldJxhy38YwgB6cB5/oh0ncRx12IPX8BxKUYBMpCJBA00pFzduMN2JXDyOLXgfR/ELzqIfPgRwLcr88KEPHvyMI3gP1XgMS5GOeA0ypRyY7TEuHfmowk40og0X4TVkKIUrAC8uoAUN2IFK5CENcRpgShmWbfd0Nx7FS6hFK7oxYsiQmQkj6EIzPsEWPIwMxGuAKWUrCjuoFXgRdejAZYfvnKZbAINox6eoRiFS9QipVOR3UVmowB40o18DKiR+9OIkduFJLNTuS6npGVKJWIwNqEMn/jdk8buBD2dwAOtxHxI0vJQKbSeVjQ34DOdw1ZAF7maj8OAg1iFLOy+lJj92kIEK1MKjIRVVo+jExyjHPH3npWI6awEkYwXewWn4DFmwAosXLXgTy5GkwaVionG7qWfQhB4EDVmcMrkgutGIKu26lGuzbux4LMV2tGHYkIUoofOhGduQo0OqyhVZgyoJD+FD/K1jCK7ihwe7UYhEDS7luKxBlYI1OIgeQxaYREYQXahBMZI1uJTx2QbVWhzGoCELSmZOP+qxRoNLGdnNN362QXXZkMUj0TOABqzWm0VlRLbT6MWo16CSCfyLA1ilU/QqGtn/APkB7EevIYtDzNWNvcjVW0U1c4MKyMTbOGfIYhBnCOIstuNeneNSkR5UqdiI3+A3ZBGI84yhFeswR0NLReLQZzG+0K8lyDTy4ghW6Q+t1XTtqhbhXfxjyE0u7nMRb+kxUd3uMYUq/KrT6TID/DiFcp2YV6HuqnKwH0OG3MwSOwaxF1nabamp7KqeRod+QUGiKIA2VGi3pSbbVWVhn3ZVYpBB7MYC7baU/Q3gE2jRd1VioAB+xGodOI3hrGGVjjf0awriAJewDXM1tGIo2yNgHo5i1JAbUuRWhnEIOXpEjIFsj4BP4XdDbkKRUJ3GWj0iujhrWM3Bq+gz5MYTCVcXtmK2hpaLGndivVa/pS4u4sNHuEePiC7INqwKcUJnq8SFAvga+RpaDs72m1XlOGPIzSUSKR0o0dByYLb/rWYzug25oUQi7Tye1S+bOijbl+s7dWpdYtAgXkGKhpbhWcPqLuzTl+sSw3zYhTQNLUOzhtUC1GPMkBsnHH5cQRf6HH4tEj1XUYMMDS2Dsr0JzMaXDn4T2INGPI8i5KEAW/GXIZ9RnMWPw1ikoWVAtmF1P7435CYJ1Qia8AgSMdH1lcBjyOe9HWPoRTu+weeWb/EHfIZ8TjcJ4jiy9QYxetkXcz5+MuTmCNUV7EAqbnWdJeg05HOHqh/H8AIKMB/JiLekYCEq0ASvIZ/bTb7DEg2tKGRbxMvRYsgNESovXkYCpnq9RWg35PNPhRcNKELyFK/zDmxGlyHX4CYnkKuhZRWFYdVqyI0QjhqkINTrfhA/OOC7ukuoxmyE8++7ftN19u4zSooqbeB4TwBmSCJJ0gISFSQoAgZ8JSiKq2JYDK/iii6KKKv7GlkMIMGI7CJgQDGhLLAKioAgiAEjCKxIUBEJAuMgYWAYmLjv/0NzTk3T3VNdXVX9VNVzz/l9Ag439VO3bt3Ade9CyuInH2nQIrkcrE72eLDagc4IGdRDH3RBJuKV/w94Q/AXxB24BCFYbecMjPZAYPaixfp66F6wao1lQhreqrmoglBYbyxHATajA8ysNxuHg0LKdNQRDEUIybZ3M3wvpFx+s1An4p1Lxg68SEiDW3UYgxAKa4HvDH++Fk0QCmuHkxCtPqrgFmF3Jn6A42DXA2qMkHL50Vw00oDlTLBqiDlCGjoZM1AVobDBKDXObUWsLfsEM1ENsTZ4Xyhkg3cxbkQIdrV7D91i5ZgyvIm6GrTsDVbH4zUfzGfk40IY52mmRSz0G4gQsvES/osCXI8QYo1EOmFpiutoB06GnW1fF98KaT8/KsVzuo3Hvg5bDf9AiZAGTsZaNIg4V/7niI2rXRDCJRHzU6vRwsRk/FsprKtvcLzNASsD04W0n18VYZyeXmrPETEjcERIwybrPVRGKGxUxJ/vNnw9fCHKv5+MyohXZ7UxMUWXa3yIbFsDFjBKSPv52SH8TY+mSe7wvZuRJ6RB7fBCxDqyX6IMz+9ELXwS5d8fwDUIVRC0qmNcCk6sWIqqsLsv3Cqk/fxuD67VL4fWnqoX+fC+wLEIhT0e4+/kYFGc7Snr0dFE0MrGSJdHp1+hlgMB6yI9Lsg1W9FLg1ZiwepUrBfSgHYaZphrSmZ90Xw0gJmDDJ9EkUvlW4O6DgSsNtgupA2DYBXaadAy1zmbYKmQhrNTGR5CHxtWqZfhBVSHmdutX3bp6+EGNHQgYNXAZ0LaMSjmob4GLFIFcy8vCWkwJxzAIRu/7IxEZRNBqxEWu1C+zWjuQMDKxEwhbRgUZZiIbA1asW9kvk+vjk/IQQxFuonjaTpghQuHELZzIGBl4GGs0UWkrirA7XrDdPQf1KXYLaShvGQ3rkLIRNA6DSsdPt+rG5z4YtwCV2Ei9gip+yDYifN0Pqt8h2wvZGuJV21FH5NBqyM+cXCfZD849VCrjF4eP6nDi75Bq8AHLMO2m7eFNIyXrcVpJoPWiZiNEgfmPQbD6aOFpvpk54OXvI7qgQ1ahrmJBwWf6+Q1y9EKIVRU93UwwYH1TZOR5uAoqzPe9cG+Uq8pxN8COZ9lXByq81a2m4sTEjiO+F6bJ7J/QluHAlYWrsY2IXUdNDvRM3DzWeECN8c3QhrCT8rwAmrA7JKBoTZvgRqPDFh9kNWMcYNQOk7B10LqOog+DtQZWoaD56YIaQA/KsLDqJRA0Pq7jUtKcg1PYitzmlPQFbEC2o06jZAyZXgKlXwftAwd7jqBR/v6TZ7hMD2zq8ln2Pj/z8dxSHT5wt0owbg45381xAoh9RxE+3CZ718NwwVsq+d0u2YbeiYQtDpio41nuw9AIg+yfsjBf/E5asYZZd0jpI6DagWa+TZgHZ009fnWG4m+RkuYDho2Xo0/HIl8MX494qiTcxDr75+PAiF1HFT/8OWroeHHcI3e6psS01EzgaDVCZOwAYeTmEe7KsER1jCUVbSm6+hN2DqtIOLV8BLfvRoavgquElLRQVOEe5CW4IinCfrjVeQm+H8uQ30k0kfaGZYsrEMbxApuQ1AqpH6D7HNffTU0fIUaL6SCgyoHF1r8clcJZ+BV5FXwBWk3ZqEzQkh0IfGj2Gu4dCNasDoDPwip16Arwyikez5oGTpYH712XIS1OBUhWF2O0h9fodTQYffgIwxHV2Qn8X8cj77IRrQ/r++Di3T9ZifO9PyroaEDLhRSsYqD8NDGckABmuCfWIexOAM1EILTD78bdA2WSP/29F5DQwe7DUVCKlUBH6IlQrDattlohHS42Z8eE1KHqrzDGOjZUVY44y11zZVYC9DcKx3MELDuFFJ/6lgr0MQL/SnWCaJPCKlIFd0inOixoNUJO4TUnyqvDA96pT9Fdqxu2CmkIlVs89HMC53M8CVxgpC6U8f6BR2l96VoX5NeFVKBqmLvemUtjeEQv01C6k4daxIyxfcnMnhUX70swFPK8BpqSe9khj42UkjdqWPloof0vnS0I1XDHCEVp8wrxhgv7A0znDyaI6Tu1LGmI0tsXzI8+S7X/YKelYdrpc9nGY54/lZIvalj7cf5YvuR4UylBUIqTFnzI06THLTCecvSvibebFQV148Mo6srcEhIZSnr5qOOuI527NfCt4TUl4ruAPqJe/iFM1RTn3i+UYyh4jpa+f5WWedKPWG2qOvuDaOry3R05Svf4AQxHS36x53FQupKxbYf54npR+HOU1Wfdr5TiAFiOlr0h2R/7BJSXyq26agsoi8ZjqvNE1I5yj4Thb8WpuFa7BFSXyq63Tgr1f3IeLjba0IqRtlrBepKDFgRk+9j9CZo8San8pA/Y4c5XRfw+dZB9JEasAx9sBnWCqkzFd1WtE9VXzLOIzwppEKUM56W+loY0Q9HCakvFdtDbvelyI5yIjYKqQzljO+kb4wO98WzsE9Inano1rjdlyKfakP15hLfK5K+XSect3pYLaTOVHRFuMHQl1ztIMfhIyEVoZw1G1WEB6xKeEdIfanY5qFqKgJWX73IMjB+QxfhASuE54TUl4ptD86Gq50jHc8LqQDljtFSXwsNAWuikLpS8T2FEFzrHC31xMfA+Q8aCw5Y6boe0DO+R2O49iS7RSfbA6cYN0ocZYXzVB0fC6krJeBDjvE+unlCCq7ctVDiZZnhftlR9xV6ygxUdiNgdUGukEIrd+VJO0XSMOofIaSOlDnb0Q6Od4wHhBRYpcY0KTeiGPrkqfhZSP0oc8pwO0Jw9JC+ZUIKrFJjh4B754zBqjWWCqkblZh5yIaj2x/2CimsSp37TTwZ3fpa/amQOlGJy0Fn6DyBctTSFE6+G/vjWCH1oaz7K0Kw/7OxDr1V2G6cluKAlYUPhNSHsu5dZMGRr4O7hRRSpd4wC09Gux+gnwipC2XdrzgZtg+//yqkgEqGt1E5hQHrOHwlpC6UdaUYBNuvVHpbSAGVDD+gSQoDVh09TsY3XkMGbOscLbBZSOGUDLnokMKAVV+PRfaN9WhsZ8C6AoVCCqdkyEfPFAasulgjpC5Ucg7hAtg2fzVeSMGUHMW4MoUB63isFFIXKnkjEYItq9s/E1IoJcstKQxYDbBOSD2o5H2AbNiyC/43IYVSsri94t3YLxvrBSi+sg2t7QhYA1EipFBKlrEpDFjV9U4BXynE5dBjZ5W/rrLXrWK+NRYhWO4UNXQ1sYpjaopXu7fUpQ2+shDZyQSsk/CrkMIoeV5DesoCFnC1XqDqGz+jeTIBq7+uv1JxvI70FG+CzsTdyBdSJ8q6Q+gDy0+vh4QURMlk/wjL+tax+zVo+cKdCMHSk2umkEIomV5ESMjpo1UwGkVC6kZZ8zLSYGnrwyohhVAyPSPl2i/DUofHcEhI/ajEfY6a0AWjynYjpASsiIP9bsEWIXWkErMNraAT7spWpfizlGAV0XfT0AX/xmEh9aXMOYTzkPCE+71CCqBkysPZ0gJWlFfEQVijN5V7yhAk/IR6UUjmlUyrcYLUgBXx8G2KkfgZxULqTyU5N2ps5KpYIiTzSqbHJc1fmejT6WiB23R+S7y5qJxIwGqI9UIyr+QpxGVeCFYxRlwXY5eQulTH+hZ1kNAXwlwhmVfy7ENXrwWsiCmPu3XNlljb0TqRgHWhfl1RcWxHKy8GLEMfr4XZQupTlXcAPWB6yHwzyoRkXsmzAQ28GrAMfb21nvYgUgmuTiRgPSIk40qmr1HLBwErhNFC6lSVdzdCMNWIU4VkWsn0IbJ9ErDuElKnKsGlDcad7/OEZFrJNBOZUgMW+TKK93cy8JqQOlXlzUAGTF0B/qWQTCuZJkhdg2X4Cng9HkAdhBDr4fyekDpV5S1BNkytwdogJNNKnjIMFh6wKmEW/ov3cRFqINpG6UVC6lWVtwp1zASsNnossoqjEBdLDFYRr4PdDccjHcZjyETkdfffCalXVd4m/MFMwDode4VkWslzCOdJDVgRQetkzMAR7MNQZCIUdj4OCqlXVV4O2psJWH30ADQVx150kxywopzY8L9Yh89xHEKogVlC6lQdaz+6mwlYV+iWBRXHl6jthYAVMdrqjMHIQE08pue9iVaAvmYC1g26yl3FUIb7pE64mwhaVdAH8zVYiVeMK80ErDuEZFjJswmtvRSsogStPyFPSH2q2Epxg5mA9YCQDCt5JiLNiwErYsnDEOQIqVMV21BU+AR6VEhmlSwluM6rwSrKYX59sUJI3aro7jUTsJ4UklklyxH80esBK6Kvt8A0PUpJrIfNBKyJQjKrZDmCi/wQsKIcBz4EW4XUs0LYGIQQN2A9JySzSpZ89PRTwIrYe3gmlukXclGeQAhxG26akMwqWXLQ3m8BK+Jh3QTT9UowMSZowFJWfeH1Q/tMBq46mKC7PUSYpAFLWfWI1xaMJnnd/U34FAeE1H8QPasBS1mxEW39Hqyi/BZqYiB+ENIOQaMBSyXssOTzr1ya22qPWbrHVl8JlXwzUT1owSrGSbyj9TgaIee667IGFcUOdA9ysIpypPIw7BPSPn73hJmA9U8hmVWp9xjSNWCV+41k4jbsF9JGfmZq4egTQjKrUmtTkCbaLQStu3Tpg+MeMrM1Z5SQzKrUGhvEifYEglYVPI4SIe3lR/fq8TLKjB3opMGqwt9KbcwV0mZ+NNRMwLpdSGZV6ryFShqwTC15OB3bhbSbn5g+wG+g7qUKtGI/nHtFcvPL4b+FtJ2fFOEKMwHrcl0gF2hbvXoMskvJeM19IwzSo2kcUYDzzQSs3sgXkmnlvveQrQEr7s3ot2IavscRIe3mN/vRzUzA6qIXqQZWMf6sXwfj7gQZK6St/G4X2ulV9SqebWijwSpiYh3IxMXYIaSt/M70VfUNsEFIppW7lqNm0AOWIUidiHGYgNnIFdJOQfAtapsJWDXxhZBMK3ctRdUgByzDrTpdsVRIuwTRh8iGqc+07wrJtHLX4iAFLMM9hW3RKewijNcvfyn3JtJhaij8gpBMKz1V1OlzrqZgO3Zjt175JcbTCJkNWA8LybRyz16cGaBgdTbWC6l7day/JRKwbtLrjgJnCWoEKGDdL6Te1bGKMQCmG7QvCoRkXrnj7hhPNDcnumuhDTqjMSojBCcC1l+E1Ls6Vh7OTiRgdcBvQjKvnLfL5dMZIie9u2M8vsKv+B0bMQsD0QAh2Pn/XqZb0MTahlaJBKwGWCck88p57yMbToyamuIUnIS2YSfjdFyJlytY31SCOahlc8DqqVvQxFqB2okErKpYLCTzynn32T6CAXphHXKxK8LeBEY4h3GNTXk0bkHbI6T+VXnvRBxvpEsbFICD6OXA6Ko1vrExn8tQ28aAdRJ2CWkDFXNJg/mAdbeQzCtn/YAmsHtearLN+SzEIIRgRx6b4xchbaAQVoZbkHCDXoJCIYVQznkPVWDnq2Afh163Pkc92HJMjK7DEikfva0ErFOQI6QQyjmjbZ4bqol5DuW1EFfZFLDqYo2QNlAI24qWVgJWHXwrpBDKGUW40ubR1SCHD7V7BRlINq+18I2QdlAI+xQ1YOkI2BlCCqGc8StOsjFgNcUqF85JOhF2jAQ/F9IOCmEvIA2WnpZ/F1II5YwlqAa7TuMchTIXtm0MRAjJ5LcaPhLSDgphdyAES416sZ5Z7WtjbJi/SsV1V9ORmWTAqooPhbSDAvLRC5YbtY3eueZbh3CBTcEqC6+7mPcNaIxkb25+X0hbKOAnNE0mYFXHMiGFUfZagxNgx0T7ZTjg8pO4J5K9T3CekLZQwPvIQlKdcYKQwih7PYOQDQGrHj4Wd425BiwvehQhJNUhr0OJkAIpe+xHL5tGV3ehOAVleAMZSGY1/jtC2kMxV45LkfT8xCm658p3PkB1GwJWB2xKURm+R0Mkc3PzbCHtoT6duQUt7QhYNfCxkEKp5BXieoRsmLSemsJy7MOZGrB8wzB/lfyw/wkhhVKpPfXA2Cf+iP0pLsttCEEDlvc9iBBsWcHcX9dj+UI+BtgwuqqDJQLK8zoykghYs4S0S9Dl4zzYdlxIc2wSUjhl3evItmF0NVTI8cLr0AhWV+Y/L6Rdgm4tGsK+8430aeR5a9AOyfaFlvheSJkK0A9WA++1QgJv0L2MdPsCFjBUr/7yrFz0teFVMA3jhJTpqClItxi0WmCzkHIEVQlugO23m3TWm3Q8a6JNR7J0EHiF+2a0hdUvne8KKUdQbUNbJwJWNSwSUkhl3k50sSFYZeJZIWWKNBwhWHlzGCmkDEH1NqrYH7CA+4QUUpmTjxHIRNK3zAheQLwxiVHWNbqTI2XKrC1NMd+4XbFbSGFVfFtwEyrbNLqaJKRcsUxCJhItW3fsE1KGoNmB9nDslt7qeoaQJ3yBs5Bm037Bfh64wy8XPSwErMbYKKQMQTPH4uugXv/lI/PRysaD+VpghZCyVWQWqiHRUxumC8l/kJTi1ij91P6vhXqbjljvo5mNwao6XhZSNjMO4yaEkMhDuJMub3DdFgvzjpZPl5wjpNAKYZ+ihY3BqgpGevBuytVogkTXlz0lJP9B8QYynQ9YwCD9siLKJnSzMVhl4QHkCylfIopxPRIt8zk6+e6aQgww0Ua27i38QUjhg+4QbrTl9FCgLp5GgZDyWfEsQkjo2i89Rsk1a9DQzYCVholCCh90ryDbpmB1Ghb6YPQ8C5lItPwjhOTf78YZHiiuBa1eyBNSAUG1BZ1sCladsVpIuZI1F5WQaD300D7tuN04w61gFXkS6WIhlRBUY2x6FWzus9ehRciyELAaCDqJwq/mINv9gAXc4oPXB6/ajJNsCFbHY4aQMtllJWrDyk06c4WUwY8KcW3kQ9bNoNUU64RURtBMQBqS3XLzqA8fOtvRxuJm6PFCyuBHK6PehenyKGuMkMoIkt9xFpJtu4s8sOXGlYP9jNeWCSmDHz1gcnTl+Mr3HUIqJCjmICvJgNUAnwgpjxNGWDxy5lofjjilTGHYvLLd+mvFVCGVEgRFuA4hWG2zdIxCqZAyOWE+si0ErD/qhSvypjDsDlo9sVdIxfjdWjRGsqcv5Aopj1N2ogMSXq7j0RX+kuWgW8qDlXErh15S4ZrxCCGZ9VZrhJTFSaW42cKK97N0LZbtpqGSpIAVwkU4IKSC/OoA+iCZlewrhZTFDW8jSwNWSu3FuSKCVZSjSN4TUkl+9aWl9UVAV3wrpBwiv6YeXe2uD15bvYkqEgNWCJfq+7+cle2GdjkD3wkpg9ueRhrM1lcfHBKSd6/bh96iglXkKEuvTXLMQfSxEKzOwVohZUiFjWgO/Uqooyudy3LRKtRHIm1xLjYIyX+qlGAwQjBTbwNQLCTvXrYHPUUGq4gGz8ZMIZXmJ88hDWaDVR+9XAHAAlQzWXc36g3ntpiGyqIDVsS6rN+FVJwfFOO6BILV+dgkJO9SnvZnmay/YULy7GW70F18sDI0eiW8KKTy/GAb2kKDlXVjETJRh/cLya+XPYMMTwQsknHNzzYhFeh1c1EFGqysW4n6JurwESH59aqfcLJnglXEMcqjhFSilxmv865ogv1HIXmWqAAXmwhYjwnJrxeV4j6EPBWwDB2gmY+O3U2VLTipgmB1FtYLya9kk5FWQV0+IySvXvQFGnguWEV0gJt0XUtSXkImYtVvB6wSklfp1qJRBQFrspC8ek0+rvLk6Cry+iQ9dtay/TgPseq2HhYIyasXHEb/CgLWC0Ly6jVvoapng1VEJ/gfvd7ektnIRlDPtHLCRIQQa971FSH59JJtON3TwSrKj2usLshLyG70ivPj6qEPAdt2DBgD1utC8ukVpRgu4nA+m4NWE3wtpJK9YEqcuats/EtIPr3mIHrHGbW+ISSfXrEM9X0TrCJeDS/Xs4ZM+QWdEKseL9R6TMrDCCGybjN1W1lCfscFnp5oN3Hv2yQhlS3VLtyAUJzR1WwhefWqBciOFrC0bk0rw+PI9F2wiugUJwbwIDkzduAZdEMG4p05vk9Inr3qRzTRgJWU5Wjk22AV8Upzpb7SlPMteiAdFd1Q9LKQPHtZLjpGC1h6N4Epv6OfL18F42yOniCk8lMtx/A10Mz+zJ1C8u1lv6Mzoj1MnxOSR6lKMdpTm5tt/Gr4mZBGSKWpyICZvZlPCcmz121G84iApcfLmLPYd18FE3g17I1dQhoiFYpxDczUV0v8JCTfXrcE1RCtns/w6fX9dtiKMwPxKhhn1HAPCoU0iNt2oj3MBPdbdVW7babE+QpbEx8JyackhzEkkMEqSgd5U0ijuG0RqpkIWFm6H9NWw2MGLOAu3ZVxjBc9v1fQxqDVOoBLHcpwp8nJ9lN0st1WQxCvvttii5C8SlnC0CzwwSriqXZBwOazfkQrmKmbO/SJb5sy3FTR8hHdUwhgK84J9KtgnPmsv+KwkIZy2kiTo6tqWCgkz35QccAChuhDYuZB3KTBKv4VYZMC0FH+g+YwUyfnYq+QfPvFUOgN0PGV4AlPXNXlcorsKA0wX0ijOaEIt5ocXVXGNCH59pPhCCFe3Z8e8C1Qs1Fbg5W5+az2Pj4LfhnqwNQt2gH/0ThlrImA1TXAdf8lWmmwSnBRqQ+vCSvA1SZHV3XxsZB8+81IEwHrggDNpxr9FNjFoTYEret8Nn+zADVhpuw3o1hIvv3mARNtMCgAc6mRfsPlGqysB60M/B8KhDRoMo5ggMnRVQ0sEZJvP7rVRBvcKySvbjmAIUjXYJVc0MrCOBQJaVir1qIhIoup+9nclY8+JgLWQ0Ly64YjeBCVNFjZt33neY/vpZuJTJOvg7cLybMfrUNjE+1wj5D8Oq0Yz+i2G/uDVl285eF5hfGmXgeBKULy7EeTkWaiHa73+APSjFK8hFoarJwJWo08vAl4XAJrr94Vkme/OYDzYaavnefzhaNleAv1NFg5++WwGT4Q0uiJmGQyYFXHJ0Ly7DeLUSOBHQYHheTbCe+goQYrd4JWCywW0vBmzUVlk+uv1gjJs5+UYDBCJgPWFT740BPLe/iDBit3g1Ybjx209h1OMBGw2gXs1Aq3/Gh6/ybwqJB8OxKsdK1VOLkctFpjkZCOUJE89DIRsC4P8AmsTnoVGTA1V+rT89k0WEVPrr8eLhDSISoyA8cj5mkVeg6TYx4xOYdYBeN89oWwDG9rsEptMgatppjjgSUPRZiLS9AE1cMa4mw86/MvU6n0L2Qj3nlszfCUz9qgFG/qBLugFO5wDTEdJUI6SjwF+BHL8Rk2IM8DAdfLCvAiLkV3dEQXXIY7MAXrfTayKsaLqKvBSlgKB606mKxzQCqOQuxHLvb4uK8cxlM4ToOV0GRYxzTaZ8N6pRKRh+G63cYDyTBxOgy/C+lASrklB3/RjcweSoajaQZgs5COpJTTfsAlekSMBxMNdtQ5WCGkQynllOXopssWPJwiVsXP8cgXRKUSUYwZOFGDlU+SYY/eeOQL6WhKJSsPo/V4GB8mw2T8YGwX0uGUsmozBuq9gT5OhhXN/4MvdKGm8qAyLEN3fQUMQIo4V2tqQK9yUt6Uj2fRSINVwFK4waviNh/ef6j852cMQpYGqoAmwyviGVisXxGVQMWYh9N0VKXJ+IpYD49it5COqlQOhqO2BitN0QJXJvpiuc927StvKcFS9NRV65rMjLYaYayOtlQK7MLDqKejKk2Jjrb6YAmKhXRm5V9FmI8eOqrSlMxoqw7uwRYhHVv5z08YhuN1VKXJri+JnfAKDgjp5Mr79uF5tEOaBipNdgeuLPTHxz6+s045rxCL0U+31mhy4zWxLoZhvW7vUQkoxX9wq77+aTIkV68YG6Mr5VUFyrAZD6GpBipNbidj4EpHRzyLHCE/ECXHDjyt81SaxCTDMoiumIpcIT8WlTo7MBGnIkMDlSZxKRy4KuFMPI9dQn48yj2/GgJVpgYqTeKTYcTVBROwRSfnfa0Um/AkOmqg0uTJZLi952Q8jLW6at5XirAaD6C1rlDX5ItkWHzaGIOxBAeF/OhU4vKwEH9GA51M1+TLZFgOURN9MRVb9GQITyjBz5iC3qiuyxM0BSYZ5rna4k58hP1CfpwKYfuwCEPRUr/4aQp0ihh1nYsnsRoFQn6wQXQIKzEWZ+toSpOm+HNdJ+BiTMb3elGGKwqwGhPQD/V0bkqTpsRX0TfExZiAlXpahG3KsB9f4yn0Q30NUpo02TfyqotzMQILsV2XSSSkCNswD/ejB2prkNKkyfk5r2y0xTX4B5YjRwNYOUXYgY8xHn9Ca2TpnJQmTe4n4+jrOHTANXgSi/Az8gOyyr4MB7EJC/AYBqAdaugoSpMmgSliBNYcvXE7puBD/Ih9Hh+JFWMvNmIxnsVtOBdNdQSlSZOHk2EUVhVN0A1XYThexEKswXbsRyHKUjxaKsR+bMNqLMDzuA9/Qlc0RraOnjRpCkAyBLIs1EVrnIn+GIwH8U9Mx/v4DKuwEVuwE7nYizwcjGE/9iIXO7EFG7AKn2Ie3sAEjMBfcCm6oxXqoIoGJk2aNP1/O3aIAgAIBFEUzFqMJj2AFg0G738uJ0wVPMB/8KMbF9af8zJ4YSQvj6KaP/2HWl5059FWU3W/qZ6RVfTswBkHAAAAAAAeLv+j5LkLLeUCAAAAAElFTkSuQmCC"
+
+/***/ }),
+
+/***/ "./src/Screen+Shot+2019-12-02+at+10.43.42+AM.png":
+/*!*******************************************************!*\
+  !*** ./src/Screen+Shot+2019-12-02+at+10.43.42+AM.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Screen+Shot+2019-12-02+at+10.43.42+AM.d72d58bf.png";
+
+/***/ }),
+
+/***/ "./src/UpcomingEvent.js":
+/*!******************************!*\
+  !*** ./src/UpcomingEvent.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Havana_2020_Instagram_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! .//Havana+2020+Instagram.png */ "./src/Havana+2020+Instagram.png");
+/* harmony import */ var _Havana_2020_Instagram_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Havana_2020_Instagram_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _2019_20_Calendar_of_Events_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./2019-20+Calendar+of+Events.png */ "./src/2019-20+Calendar+of+Events.png");
+/* harmony import */ var _2019_20_Calendar_of_Events_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_2019_20_Calendar_of_Events_png__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "E:\\Mital\\ComIT\\project\\salsadancehub\\src\\UpcomingEvent.js";
+
+ //import Navigation from './navigation'
+
+
+
+
+
+function UpcomingEvent() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Upcoming Events/Workshops", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "upcomingclass",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _Havana_2020_Instagram_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    alt: _Havana_2020_Instagram_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "/hanavaEvent",
+    exact: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), "SSDC Havana Dance Excursion 2019", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _Havana_2020_Instagram_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    alt: _Havana_2020_Instagram_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), "Salsa Night at LB Distillers | Jan 17", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _Havana_2020_Instagram_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    alt: _Havana_2020_Instagram_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), "Dec 14 | Christmas Boogaloo Show & Party", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _Havana_2020_Instagram_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    alt: _Havana_2020_Instagram_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), "Ladies Touch Saskatoon Auditions"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "calender",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _2019_20_Calendar_of_Events_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    alt: _Havana_2020_Instagram_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  })));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (UpcomingEvent);
+
+/***/ }),
+
+/***/ "./src/dancelogo.png":
+/*!***************************!*\
+  !*** ./src/dancelogo.png ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/dancelogo.cd452039.png";
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+var _jsxFileName = "E:\\Mital\\ComIT\\project\\salsadancehub\\src\\index.js";
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+_serviceWorker__WEBPACK_IMPORTED_MODULE_4__["unregister"]();
+
+/***/ }),
+
+/***/ "./src/pages/About.js":
+/*!****************************!*\
+  !*** ./src/pages/About.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _About1_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../About1.png */ "./src/About1.png");
+/* harmony import */ var _About1_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_About1_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _About2_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../About2.png */ "./src/About2.png");
+/* harmony import */ var _About2_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_About2_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _navigation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./navigation */ "./src/pages/navigation.js");
+var _jsxFileName = "E:\\Mital\\ComIT\\project\\salsadancehub\\src\\pages\\About.js";
+
+
+
+
+
+
+function About() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/Contact",
+    exact: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navigation__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, " The Story of Saskatoon Salsa"), "If you love to dance, you should dance! That\u2019s what Saskatoon Salsa believes, and with classes tailored to every age and experience level, it\u2019s a philosophy that has made them Saskatoon\u2019s premiere Salsa dance school for ten years running. Established in 2005, Saskatoon Salsa proudly offers lessons for every demographic from six years old and up including classes for individuals, couples classes, and even a ladies-only Salsa class. And if your goal is performance, you can look forward to learning other Cuban dance favourites like Mambo, Cha-Cha-Cha, Rumba, and more! In addition to their core programming of Cuban dance, Saskatoon Salsa also offers the globe-trotting dance lessons of Bachata, Rueda de Casino, Bollywood, and Kizomba. Led by Kimberly Parent and her team of experienced and personable instructors, every class at Saskatoon Salsa features both instruction and actual dancing to music so you learn in the most hands-on (and most fun) way. No matter if you\u2019re six or seventy, if you want to get up on stage or just get a little exercise with a smile on your face, Saskatoon Salsa is excited to be your destination for dance."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _About1_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    alt: _About1_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _About2_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+    alt: _About2_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  })));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (About);
+
+/***/ }),
+
+/***/ "./src/pages/Classes.js":
+/*!******************************!*\
+  !*** ./src/pages/Classes.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Screen_Shot_2019_12_02_at_10_43_42_AM_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Screen+Shot+2019-12-02+at+10.43.42+AM.png */ "./src/Screen+Shot+2019-12-02+at+10.43.42+AM.png");
+/* harmony import */ var _Screen_Shot_2019_12_02_at_10_43_42_AM_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Screen_Shot_2019_12_02_at_10_43_42_AM_png__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _NWB_SaskatoonSalsa_Products_Class_blue_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../NWB_SaskatoonSalsa_Products_Class-blue.png */ "./src/NWB_SaskatoonSalsa_Products_Class-blue.png");
+/* harmony import */ var _NWB_SaskatoonSalsa_Products_Class_blue_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_NWB_SaskatoonSalsa_Products_Class_blue_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _NWB_SaskatoonSalsa_Products_Instruction_01_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../NWB_SaskatoonSalsa_Products_Instruction-01.png */ "./src/NWB_SaskatoonSalsa_Products_Instruction-01.png");
+/* harmony import */ var _NWB_SaskatoonSalsa_Products_Instruction_01_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_NWB_SaskatoonSalsa_Products_Instruction_01_png__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "E:\\Mital\\ComIT\\project\\salsadancehub\\src\\pages\\Classes.js";
+ //import Navigation from './navigation';
+// import {
+//     Link
+// }from 'react-router-dom';
+
+
+
+
+
+function Classes() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "FALL-WINTER 2019-20 Recreational Classes * Registration is online below and continues until sold out. See below for registration options SESSION DATES: Fall Session 2  - begins November 6th Winter Session 1 - begins January 6th COST: 12 week session: $160.00 + gst ($136.00 + gst for members) 8 week session: $120.00 + gst ($102.00 + gst for members) 6 week session : $90.00 + gst ($76.50 + gst for members) 4 week session : $60.00 + gst ($51.00 + gst for members) REFUND POLICY: Once a class is purchased, we do not offer refunds or credits.  Classes are transferable to another student if the student meets the criteria. MEMBERSHIP: Our annual membership costs $50.00. Members receive 15% off of all rec classes, 10-20% off of events and workshops between September 1, 2019 and August 31, 2020.  Once purchased, we will email you with your member code to use upon checkout.  If you are a performance student, you receive a free membership.  Purchase here LOCATION:  3521 8th Street East, Saskatoon, SK - Downstairs Suite B6-B7 (Please enter in EAST side doors) WHAT TO WEAR:  Wear whatever you are comfortable dancing in.  Please bring CLEAN, non-scuffing indoor shoes (dance heels, flats, or even socks work fine. Dress shoes for men) and bring a water bottle.  We do not recommend runners.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "CLASS LEVELS: Our Salsa levels progress as follows: Absolute Beginner Salsa Salsa Level 2 Salsa Level 3 Inermediate I Intermediate II Advanced Classes range between 1 hour - 90 minute"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _Screen_Shot_2019_12_02_at_10_43_42_AM_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    alt: _Screen_Shot_2019_12_02_at_10_43_42_AM_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "FALL 2019", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _NWB_SaskatoonSalsa_Products_Class_blue_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    alt: _NWB_SaskatoonSalsa_Products_Class_blue_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }), "Intermediate Ladies Salsa Workshop | S1-2020 42.00 Runs | Saturday February 29th @ 1:00pm - 3:00pm Cost | $42.00 Instructor | Kimberly Studio | 3521 8th Street East, downstairs, Blue Studio", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _NWB_SaskatoonSalsa_Products_Instruction_01_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+    alt: _NWB_SaskatoonSalsa_Products_Instruction_01_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }), "Absolute Beginner Salsa | S1-2020 126.00 Runs | Fridays @ 6:00pm - 6:55pm Dates | Nov 8 - Dec 13th (6-week session) Cost | $90.00 + gst ($94.50) Instructor | Gabe Studio | Blue Studio")));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Classes);
+
+/***/ }),
+
+/***/ "./src/pages/Contact.js":
+/*!******************************!*\
+  !*** ./src/pages/Contact.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "E:\\Mital\\ComIT\\project\\salsadancehub\\src\\pages\\Contact.js";
+ // import {
+//     Link 
+// }from 'react-router-dom';
+
+function Contact() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "send us a message!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    title: "Name",
+    text: "FirstName",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "FirstName"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    title: "Name",
+    text: "FirstName",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "LastName"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+/***/ }),
+
+/***/ "./src/pages/Login.js":
+/*!****************************!*\
+  !*** ./src/pages/Login.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var E_Mital_ComIT_project_salsadancehub_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+
+var _jsxFileName = "E:\\Mital\\ComIT\\project\\salsadancehub\\src\\pages\\Login.js";
+
+
+
+function Login(props) {
+  let history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useHistory"])();
+
+  let _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(''),
+      _React$useState2 = Object(E_Mital_ComIT_project_salsadancehub_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
+      password = _React$useState2[0],
+      setPassword = _React$useState2[1];
+
+  function goToHome() {
+    history.push('/home');
+  }
+
+  function handleUsernameChange(event) {
+    props.setUsername(event.currentTarget.value);
+  }
+
+  function handlePasswordChange(event) {
+    setPassword(event.currentTarget.value);
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Login"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Username"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    value: props.username,
+    onChange: handleUsernameChange,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "Password"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    value: password,
+    onChange: handlePasswordChange,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    onClick: goToHome,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "Login"));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Login);
+
+/***/ }),
+
+/***/ "./src/pages/footer.js":
+/*!*****************************!*\
+  !*** ./src/pages/footer.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "E:\\Mital\\ComIT\\project\\salsadancehub\\src\\pages\\footer.js";
+
+
+function footer() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "footer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, " BACK TO TOP", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }), "SASKATOON SALSA DANCE. EAST SASKATOON, SK,", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }), "S7J1C9", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }), "SASKATOON"));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (footer);
+
+/***/ }),
+
+/***/ "./src/pages/home.js":
+/*!***************************!*\
+  !*** ./src/pages/home.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "E:\\Mital\\ComIT\\project\\salsadancehub\\src\\pages\\home.js";
+
+
+function home(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "Welcome, ", props.username));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (home);
+
+/***/ }),
+
+/***/ "./src/pages/navigation.js":
+/*!*********************************!*\
+  !*** ./src/pages/navigation.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _dancelogo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../dancelogo.png */ "./src/dancelogo.png");
+/* harmony import */ var _dancelogo_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_dancelogo_png__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "E:\\Mital\\ComIT\\project\\salsadancehub\\src\\pages\\navigation.js";
+
+
+
+
+function navigation() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/Classes",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Classes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/UpcomingEvent",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "UpcomingEvent"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _dancelogo_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    alt: "not found",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/Contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "Contact "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/About",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "About "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/sign in",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Sign In "))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (navigation);
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+const isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.1/8 is considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) {}
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(registration => {
+    registration.onupdatefound = () => {
+      const installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = () => {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(error => {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl).then(response => {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    const contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister().then(() => {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(() => {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 0:
+/*!**********************************************************************************!*\
+  !*** multi ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! E:\Mital\ComIT\project\salsadancehub\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! E:\Mital\ComIT\project\salsadancehub\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[0,"runtime-main",0]]]);
+//# sourceMappingURL=main.chunk.js.map

@@ -1,29 +1,29 @@
 import React from 'react';
 import {
-    BrowserRouter,
-    Route,
-  } from 'react-router-dom';
-  import Index from './pages/Index.js';
-import Contact from './pages/Contact.js';
-import About from './pages/about.js'
-import UpcomingEvent from './pages/UpcomingEvent.js';
-import Classes from './pages/Classes.js';
-import SignIn from './pages/SignIn.js';
-
-function headerNav(){
+    Link,
+    BrowserRouter
+}from 'react-router-dom';
+import logo from '../dancelogo.png';
+function headernav(){
     return(
-        <div>
-            <BrowserRouter>
-                <div className="header">
-                <Route path="/" component={Index} exact={true}/>
-                <Route path="/Classes" component={Classes} exact={true}/>
-                <Route path="/UpcomingEvent" component={UpcomingEvent} exact={true}/>
-                <Route path="/about" component={About} exact={true}/>
-                <Route path="/contact" component={Contact} exact={true}/>
-                <Route path="/signIn" component={SignIn} exact={true}/>
-                </div>
-        </BrowserRouter>
+        <BrowserRouter>
+        <div className="header">
+             <Link to="/headernav">Home</Link> 
+           
+             <Link to="/Classes">Classes</Link> 
+           
+            <Link to="/UpcomingEvent">UpcomingEvent</Link>
+           
+                <img src={logo} alt="not found"/>
+            
+            <Link to="/Contact">Contact </Link>
+           
+            <Link to="/About">About </Link>
+            
+            <Link to="/sign in">Sign In </Link>
+    
         </div>
+        </BrowserRouter>
     )
 }
-export default headerNav;
+export default headernav;

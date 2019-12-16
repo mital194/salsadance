@@ -1,10 +1,32 @@
-
-.header div{
-display:flex;
-justify-items: center;
+.app{
+  justify-items: center;
+ display:flex;
+ font-family: "Droid Serif";
+ flex-direction: column;
+ flex-wrap: wrap;
  justify-content:space-between;
+ text-align:center;
+ width: 100%;
+}
+.header{
+justify-content:space-between;
  margin: 20px;
  font-size: 20px;
+ text-align: center;
+ padding: 10px 0;
+ border: 5px solid;
+ word-spacing: 5px;
+ display: flex;
+ background-color:pink;
+
+}
+
+.header h1{
+  background-color:pink;
+}
+.headertext h1{
+  text-align:center;
+
 }
 .header img{
   height: 80px;
@@ -13,18 +35,78 @@ justify-items: center;
 height: 50%;
 width: 100%;
 }
+/* this is for classes */
 .classes-format{
   justify-content: center;
-
+}
+.classes-format img{
+  justify-content: center;
+}
+.image{
+  margin-top: 10px;
+}
+.image img{
+  height: 50%;
+  width: 100%;
+}
+.events{
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
+  flex-wrap: wrap;
+  
 }
 
+.display-block{
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+/* this is for footer
+ */
 .footer {
-  justify-content: center;
-  justify-items: center;
+
   margin:20px;
   font-size: 18px;
   font-family: "Droid Serif";
   font-size: 18px;
- line-height: 1.6em;
+  line-height: 1.6em;
   letter-spacing: 0px;
+  background-color:pink;
+}
+
+
+.upcomingclass {
+  display: inline-block;
+  justify-content: center;
+  justify-items: center;
+  margin:20px;
+  padding: 10px;;
+
+}
+.calender img{
+  margin: 20px;
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+/* gallery page style */
+.Gallery img{
+  flex: 1;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 50vh;
+  
+}
+.Gallery {
+  flex: 1;
+  padding: 5px;
+  flex-wrap: wrap;
+  flex-direction: column;
+
 }
