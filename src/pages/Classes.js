@@ -1,13 +1,15 @@
 import React from 'react';
 //import Navigation from './navigation';
 
-// import {
-//     Link
-// }from 'react-router-dom';
+import {
+    Link,
+    
+}from 'react-router-dom';
 import session from '../Screen+Shot+2019-12-02+at+10.43.42+AM.png';
 //import event1 from '../NWB_SaskatoonSalsa_Products_Class-blue.png';
 import event2 from '../NWB_SaskatoonSalsa_Products_Instruction-01.png';
 import Navigation from './navigation'
+
  function Classes(){
     return(
         <div >
@@ -55,8 +57,11 @@ import Navigation from './navigation'
            <div className="events">
            <h1>FALL 2019</h1>
                <div className="image">
-                    <img src={event2} alt={event2}/><br/>
-                    Intermediate Ladies Salsa Workshop<br/> |
+               <Link to="/event2" exact={true} >
+                   <img src={event2} alt={event2}/><br/>
+                   Intermediate Ladies Salsa Workshop<br/>
+                   </Link>
+                     |
                      S1-2020 42.00<br/>
                     Runs | Saturday February 29th @ 1:00pm - 3:00pm<br/>
                     Cost | $42.00  <br/>
@@ -64,8 +69,11 @@ import Navigation from './navigation'
                    
                  </div>  
                  <div  className="image">
-                    <img src={event2} alt={event2}/><br/>
-                    Absolute Beginner Salsa | S1-2020 126.00<br/>
+                 <Link to="/event2" exact={true}>
+                   <img src={event2} alt={event2}/><br/>
+                   Absolute Beginner Salsa <br/>
+                   </Link>
+                   | S1-2020 126.00<br/>
                     Runs | Fridays @ 6:00pm - 6:55pm<br/>
                     Dates | Nov 8 - Dec 13th (6-week session)<br/>
                     Cost | $90.00 + gst ($94.50)<br/>
@@ -73,9 +81,11 @@ import Navigation from './navigation'
                    
                  </div>  
                  <div  className="image">
-                    <img src={event2} alt={event2}/><br/>
-                    Advanced Salsa | S1-2020<br/>
-                    126.00<br/>
+                 <Link to="/event2" exact={true}>
+                   <img src={event2} alt={event2}/><br/>
+                   Advanced Salsa <br/>
+                   </Link>
+                   | S1-2020 126.00<br/>
                     Runs | Mondays @ 7:00pm - 7:55pm<br/>
                     Dates |Jan 13-March 9 (8 weeks) <br/>
                     Cost | $120.00 + gst ($126.00)<br/>
@@ -84,9 +94,11 @@ import Navigation from './navigation'
 
                  </div> 
                  <div  className="image">
-                    <img src={event2} alt={event2}/><br/>
-                        Absolute Beginner Bachata | S1-2020<br/>
-                        126.00<br/>
+                 <Link to="/event2" exact={true}>
+                   <img src={event2} alt={event2}/><br/>
+                   Absolute Beginner Bachata<br/>
+                   </Link>
+                         | S1-2020 |126.00<br/>
                         Runs | Wednesdays @ 8:30pm - 9:30pm<br/>
                         Dates | January 15-March 4 (8-week session)<br/>
                         Cost | $120.00 + gst ($126.00)<br/>
@@ -94,9 +106,11 @@ import Navigation from './navigation'
                    
                  </div> 
                  <div  className="image">
-                    <img src={event2} alt={event2}/><br/>
-                        Ladies Salsa (Beginner) | S1-2020<br/>
-                        126.00<br/>
+                 <Link to="/event2" exact={true}>
+                   <img src={event2} alt={event2}/><br/>
+                   Ladies Salsa (Beginner)<br/>
+                   </Link>
+                        | S1-2020|126.00<br/>
                         Runs | Mondays @ 5:00-5:55pm<br/>
                         Dates | February 24-April 20 (8-week session)<br/>
                         *No class April 13th<br/>

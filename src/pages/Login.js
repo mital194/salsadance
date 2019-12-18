@@ -22,9 +22,8 @@ function Login(props) {
     }
 
     return (
-        <div>
+        <div ClassName="Login">
             <h1>Login</h1>
-            
             <div>
                 <label>Username</label>
                 <input value={props.username} onChange={handleUsernameChange} />
