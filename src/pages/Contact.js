@@ -26,6 +26,9 @@ function Contact(){
                   <div className="form-login">
                 <input type="submit" value="Send Message" />
             </div>
+            <div>
+              message send
+            </div>
             </form>
             
           </div>

@@ -14,14 +14,15 @@ import Classes from './pages/Classes';
 import UpcomingEvent from './UpcomingEvent'
 import Gallery from './pages/Gallery'
 import Instructors from './pages/Instructors'
-import Login from './pages/Login';
+//import Login from './pages/Login';
+//import havanaEvent from './pages/havanaEvent';
 
 //import Home from './pages/home';
 //import Havana from './Havana+2020+Instagram.png'
 
 function App(){
 
-  let [username, setUsername] = React.useState('');
+  // let [username, setUsername] = React.useState('');
  
 
     return(
@@ -36,13 +37,13 @@ function App(){
         <Route path={'/UpcomingEvent'} component={UpcomingEvent} exact={true}/>   
         <Route path={'/Gallery'} component={Gallery} exact={true}/>
         <Route path={'/Instructors'}component={Instructors} exact={true}/>
-        <Route path={'/Login'}component={Login} exact={true}/>
-        <Route path={'/login'}>
+        {/* <Route path={'/login'}>
           <Login 
             username={username} 
             setUsername={setUsername} 
+           
           />
-        </Route>
+        </Route> */}
 
         </div>
         <div>

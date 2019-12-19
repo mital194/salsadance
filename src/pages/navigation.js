@@ -16,7 +16,7 @@ function navigation(){
              <Link to="/Contact">Contact </Link>
              <Link to="/About">About </Link>
             <Link to="/Instructors">Instructors</Link>
-            <Link to="/Login">Login</Link>
+            
         </div>
     )
 }

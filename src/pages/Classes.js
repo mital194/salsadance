@@ -112,14 +112,108 @@ import Navigation from './navigation'
                    </Link>
                         | S1-2020|126.00<br/>
                         Runs | Mondays @ 5:00-5:55pm<br/>
-                        Dates | February 24-April 20 (8-week session)<br/>
+                        Dates | February 24-April 20<br/>
+                         (8-week session)<br/>
                         *No class April 13th<br/>
                         Cost | $120.00 + gst ($126.00)<br/>
                         Instructor | Kimberly<br/>
                     
                  </div> 
+                 <div  className="image">
+                 <Link to="/event2" exact={true}>
+                   <img src={event2} alt={event2}/><br/>
+                   Advanced Bachata | S1-2020)<br/>
+                   </Link>
+                      126.00<br/>
+                      Runs | Thursdays @ 6:00pm - 6:55pm<br/>
+                      Dates | Jan 16-March 5 (8 weeks)<br/>
+                      Cost | $120+ gst ($126.00)<br/>
+                      Instructor | Ervin<br/>
+                 </div> 
+                 <div  className="image">
+                 <Link to="/event2" exact={true}>
+                   <img src={event2} alt={event2}/><br/>
+                   Latin Essentials <br/>
+                   (Cumbia, Salsa, Bachata, Merengue)
+                   | S1-2020<br/>
+                   </Link>
+                      126.00<br/>
+                      Runs | Sundays @ 5:00-5:55pm<br/>
+                      Dates | Jan 12-March 8<br/>
+                        (8-week session)<br/>
+                      No class Feb 16th<br/>
+                      Cost | $120+ gst ($126.00)<br/>
+                      Instructor | Karla & Abraham<br/>
+                     
+                 </div> 
+                 <div  className="image">
+                 <Link to="/event2" exact={true}>
+                   <img src={event2} alt={event2}/><br/>
+                   Level 2 Salsa Bachata Mix | S1-2020<br/>
+                   </Link>
+                     from 94.50<br/>
+                      Runs | Sundays @ 5:00-5:55pm<br/>
+                      Dates | 
+                      Salsa - January 12- February 23 <br/>
+                      (no class Feb 16)<br/>
+                      Bachata - March 1 - April 5th <br/>
+                      Cost | Cost | Salsa Only $94.50,<br/>
+                       Bachata Only $94.50 or take both for $168.00<br/>
+                        Instructor | Paul<br/>
+                     
+                 </div> 
+                 <div  className="image">
+                 <Link to="/event2" exact={true}>
+                   <img src={event2} alt={event2}/><br/>
+                   Beginner Salsa and Bachata Mix<br/>
+                    | S1-2020<br/>
+                   </Link>
+                     from 94.50<br/>
+                     Runs | Sundays @ 6:00-6:55pm<br/>
+                      Dates | 
+                      Salsa - January 12 - Feb 23<br/>
+                       (no class Feb 16)
+                      Cost | Salsa Only $94.50, Bachata Only<br/>
+                      Bachata - March 1 - April 5th <br/>
+                      Cost |Salsa Only $94.50, <br/>
+                      Bachata Only $94.50 <br/>
+                      or take both for $168.00<br/>
+                      Instructor | Paul<br/>
+                     
+                 </div> 
+                 <div  className="image">
+                 <Link to="/event2" exact={true}>
+                   <img src={event2} alt={event2}/><br/>
+                   Level 3 Salsa and Bachata Mix | S1-2020<br/>
+                   </Link>
+                     from 94.50<br/>
+                     Runs | Sundays @ 7:00-7:55pm<br/>
+                      Dates | 
+                      Salsa - January 12 - Feb 23<br/>
+                       (no class Feb 16)<br/>
+                      Cost | Salsa Only $94.50, Bachata Only<br/>
+                      Bachata - March 1 - April 5th <br/>
+                      Cost |Salsa Only $94.50, Bachata Only<br/>
+                       $94.50 or take both for $168.00<br/>
+                      Instructor | Paul<br/>
+                     
+                 </div> 
+                 <div  className="image">
+                 <Link to="/event2" exact={true}>
+                   <img src={event2} alt={event2}/><br/>
+                   Kizomba Level 2 | S1-2020<br/>
+                   </Link>
+                      126.00<br/>
+                      Runs | Sundays @ 6:00pm - 6:50pm<br/>
+                      Dates | January 12 - March 8th <br/>
+                      (no class Feb 16)<br/>
+                      Cost | $120.00 + gst ($126.00)<br/>
+                      Instructor | Ludovic<br/>
+                   
+
+                 </div> 
            </div>
-         </div>
+      </div>
     
             
     )
