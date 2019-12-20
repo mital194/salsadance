@@ -1,8 +1,9 @@
 import React from 'react';
-
+import Navigation from '../pages/navigation'
 function Contact(){
     return(
         <div>
+          <Navigation/>
       <h2 className="form-header">Send me a Message</h2>    
       <h3 className="form-sub-header">Got a question? We'd love to hear from you. 
       <br/>Send us a message and we'll respond as soon as possible.</h3>    
@@ -26,9 +27,7 @@ function Contact(){
                   <div className="form-login">
                 <input type="submit" value="Send Message" />
             </div>
-            <div>
-              message send
-            </div>
+            
             </form>
             
           </div>
